@@ -197,7 +197,6 @@ const About = () => {
             </div>
           </div>
 
-          {/* Footer */}
           <div className="p-4 rounded-2xl border border-gray-200 bg-white text-center text-xs text-gray-500 shadow-xs">
             Architecture built with <span className="font-semibold text-gray-900">React</span>, <span className="font-semibold text-gray-900">Redux Toolkit</span>, and <span className="font-semibold text-gray-900">Tailwind CSS</span>.
           </div>

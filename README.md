@@ -1,12 +1,136 @@
-# React + Vite
+# 🚀 Redux Todo Project
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A modern Todo Application built using **React**, **Redux Toolkit**, and **Vite**.
 
-Currently, two official plugins are available:
+🌐 **Live Demo:**  
+https://redux-todo-project-hackathon.vercel.app/
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+📂 **GitHub Repository:**  
+https://github.com/sunilnaginbhai/Redux-Todo-Project-hackathon
 
-## Expanding the ESLint configuration
+---
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+## 📚 Project Resources
+
+### 📖 Redux Toolkit Documentation
+https://drive.google.com/drive/folders/1vRDgbt1wfxWwyOWVzHWsIhInq23t_sDU?usp=sharing
+
+### 🎥 Project Explanation Video
+Available inside the Google Drive folder above.
+
+---
+Light theam
+<img width="1365" height="629" alt="image" src="https://github.com/user-attachments/assets/e9c80ea2-5fbd-4ee8-9e46-ddc339be3779" />
+Dark Theam
+<img width="1365" height="630" alt="image" src="https://github.com/user-attachments/assets/b274273d-37e8-4676-88f2-37481df3e93c" />
+
+
+
+## ✨ Features
+
+- ✅ Add Todo
+- ✏️ Edit Todo
+- 🗑️ Delete Todo
+- 📋 Display Todos
+- ⚡ Global State Management with Redux Toolkit
+- 🎨 Responsive UI
+- 🚀 Built with Vite
+
+---
+
+## 🛠 Tech Stack
+
+- React
+- Redux Toolkit
+- React Redux
+- JavaScript
+- Vite
+- CSS
+
+---
+
+## 📂 Folder Structure
+
+```
+src
+│
+├── Components
+├── Redux
+│   ├── app
+│   └── Features
+├── App.jsx
+├── main.jsx
+```
+
+---
+
+## 🚀 Installation
+
+```bash
+git clone https://github.com/sunilnaginbhai/Redux-Todo-Project-hackathon.git
+```
+
+```bash
+cd Redux-Todo-Project-hackathon
+```
+
+```bash
+npm install
+```
+
+```bash
+npm run dev
+```
+
+---
+
+## 🧠 Redux Toolkit Concepts Used
+
+- configureStore()
+- createSlice()
+- Provider
+- useSelector()
+- useDispatch()
+- Actions
+- Reducers
+- Global State
+
+---
+
+## 📖 What I Learned
+
+- State Management with Redux Toolkit
+- Store Configuration
+- Creating Slices
+- Dispatching Actions
+- Reading Global State
+- Updating State Efficiently
+- Project Structure Best Practices
+
+---
+
+## 🎯 Future Improvements
+
+- Dark Mode
+- Search Todos
+- Filter Todos
+- Local Storage
+- Due Dates
+- Categories
+- Drag & Drop
+- Backend Integration
+
+---
+
+## 👨‍💻 Author
+
+**Sunil Patel**
+
+GitHub:
+https://github.com/sunilnaginbhai
+
+---
+
+## ⭐ Support
+
+If you like this project, please give it a ⭐ on GitHub.

@@ -103,7 +103,6 @@ const SearchTask = () => {
               )}
             </div>
           ) : (
-            /* Default Static List */
             <>
               <div className="px-4 py-1.5 text-xs font-semibold tracking-wider uppercase text-slate-400 dark:text-zinc-500">
                 Recently viewed
@@ -133,7 +132,6 @@ const SearchTask = () => {
                 
               </div>
 
-              {/* Navigation Section */}
               <div className={`mt-2 border-t pt-2 ${
                 TheamToggle ? "border-zinc-800" : "border-slate-100"
               }`}>

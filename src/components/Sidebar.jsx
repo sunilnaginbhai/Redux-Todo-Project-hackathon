@@ -9,7 +9,6 @@ const Sidebar = () => {
   return (
     <aside className={`w-64 border-r p-4 flex flex-col justify-between shrink-0 min-h-screen transition-colors ${theme.cardBg}`}>
       <div className="space-y-6">
-        {/* Logo / Brand */}
         <div className="flex items-center gap-2 px-2">
           <div className="p-2 bg-indigo-600 rounded-lg text-white">
             <Layers className="w-5 h-5" />

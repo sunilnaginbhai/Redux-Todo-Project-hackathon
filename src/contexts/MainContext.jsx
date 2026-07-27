@@ -5,7 +5,7 @@ export const MainContext = createContext();
 export const MainProvider = ({ children }) => {
   const [TheamToggle, setTheamToggle] = useState(false);
   const [isSearchOpen, setIsSearchOpen] = useState(false);
-
+  //  Provide some theam
   const theme = {
     pageBg: TheamToggle ? "bg-zinc-950 text-zinc-100" : "bg-slate-50 text-slate-900",
     cardBg: TheamToggle ? "bg-zinc-900 border-zinc-800" : "bg-white border-slate-100",

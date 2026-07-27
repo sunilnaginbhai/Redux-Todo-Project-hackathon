@@ -81,11 +81,9 @@ const About = () => {
       <Sidebar /> 
       <SearchTask/>
 
-      {/* Main Content Area */}
       <div className="flex-1 p-6 md:p-10 overflow-y-auto bg-white">
         <div className="max-w-4xl mx-auto space-y-8">
           
-          {/* Header Section */}
           <div className="border-b border-gray-200 pb-6">
             <div className="flex items-center gap-3 mb-2">
               <div className="p-2.5 bg-gray-900 rounded-xl text-white">
@@ -102,7 +100,6 @@ const About = () => {
             </div>
           </div>
 
-          {/* Overview Banner */}
           <div className="p-6 rounded-2xl bg-white border border-gray-200 space-y-3 shadow-xs">
             <div className="flex flex-wrap items-center justify-between gap-3">
               <div className="flex items-center gap-2 font-semibold text-sm text-gray-900">
@@ -119,7 +116,6 @@ const About = () => {
             </p>
           </div>
 
-          {/* Key Features */}
           <div className="space-y-4">
             <h2 className="text-xs font-bold tracking-wider uppercase text-gray-400 border-b border-gray-200 pb-2">
               System Features
@@ -152,7 +148,6 @@ const About = () => {
             </div>
           </div>
 
-          {/* Developer Profiles & Links */}
           <div className="space-y-4">
             <h2 className="text-xs font-bold tracking-wider uppercase text-gray-400 border-b border-gray-200 pb-2">
               Developer Credentials & Profiles
